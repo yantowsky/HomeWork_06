@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Kablammo&display=swap');
 
 body {
-    font-family: "Bad Script","Kablammo", cursive, Arial, Helvetica, sans-serif;
+    font-family: "Kablammo", cursive, Arial, Helvetica, sans-serif;
     background: url("../images/sand.jpg") no-repeat center center fixed;
     background-size: cover;
+    /* "Bad Script" */
 }
 
 img {
@@ -13,15 +14,19 @@ img {
 .wrapper__line {
     display: flex;
     flex-direction: row;
-    height: 33%;
+    justify-content: space-between;
 }
 
 .wrapper__item {
-    /* border: 2px solid #000; */
+    padding-right: 2%;
+    width: 20%;
 }
 
 .main-title {
+    padding: 80px 0;
+    width: 100%;
     font-family: "Kablammo";
-    font-size: 5rem;
+    font-size: 5vw;
     color: #ff2727;
+    text-align: center;
 }

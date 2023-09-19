@@ -1,7 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Pacifico&family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Kablammo&display=swap');
 
 body {
-    background-image: url(../images/index.jpg);
-    background-repeat: no-repeat;
+    font-family: "Bad Script","Kablammo", cursive, Arial, Helvetica, sans-serif;
+    background: url("../images/sand.jpg") no-repeat center center fixed;
     background-size: cover;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper__line {
+    display: flex;
+    flex-direction: row;
+    height: 33%;
+}
+
+.wrapper__item {
+    /* border: 2px solid #000; */
+}
+
+.main-title {
+    font-family: "Kablammo";
+    font-size: 5rem;
+    color: #ff2727;
 }

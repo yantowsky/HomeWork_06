@@ -18,15 +18,41 @@ img {
 }
 
 .wrapper__item {
+    position: relative;
     padding-right: 2%;
     width: 20%;
 }
 
-.main-title {
+.wrapper__item--spec {
     padding: 80px 0;
     width: 100%;
     font-family: "Kablammo";
     font-size: 5vw;
-    color: #ff2727;
+    color: #000080;
     text-align: center;
+    transition: all 2s;
+}
+
+.dream {
+    display: none;
+}
+
+.wrapper__item:hover .dream {
+    display: inline;
+    position: absolute;
+    width: 100%;
+}
+.wrapper__item--mod:hover .dream {
+    right: 100%;
+}
+.dream-title {
+    position: absolute;
+    margin: -38% 0 0 25%;
+    font-size: 1.8vw;
+}
+.wrapper__item--spec:hover {
+    font-size: 7vw;
+    padding: 65px 0;
+    color: #d37325;
+    transition: all 2s;
 }

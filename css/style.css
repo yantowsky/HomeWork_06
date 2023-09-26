@@ -29,6 +29,7 @@ img {
 .wrapper__item--spec {
     width: 100%;
     padding: 80px 0;
+
     font-family: "Kablammo";
     font-size: 5vw;
     color: #000080;
@@ -77,6 +78,12 @@ img {
     display: inline;
 }
 
+/* 30 */
+.wrapper__item--spec:hover .nav {
+    position: fixed;
+    width: 100%;
+}
+
 /* 10 */
 .nav__link {
     display: none;
@@ -118,15 +125,16 @@ img {
     box-shadow: -7px 9px 5px #444444;
     padding: 1.5%;
 }
-    /* 10 */
-    .country-logo--mod {
-        transform: scaleX(-1);
-    }
 
-    /* 11 */
-    body:active {
-        display: block;
-        background: url("../images/water.jpg") no-repeat center center;
-        background-size: cover;
-        transition: all 1s;
-    }
+/* 10 */
+.country-logo--mod {
+    transform: scaleX(-1);
+}
+
+/* 11 */
+body:active {
+    display: block;
+    background: url("../images/water.jpg") no-repeat center center fixed;
+    background-size: cover;
+    transition: all 1s;
+}
